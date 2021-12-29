@@ -114,6 +114,7 @@ stages:
                     "value": "http://$(LeaderboardAppName).azurewebsites.net/api/LeaderboardFunction",
                     "slotSetting": false
                   }
+                ]
           - task: AzureAppServiceSettings@1
             displayName: 'Update web app settings'
             inputs:
@@ -127,5 +128,5 @@ stages:
                      "value": "http://$(LeaderboardAppName).azurewebsites.net/api/LeaderboardFunction",
                      "slotSetting": false
                   }
-      ]
                 ]
+
